@@ -1,0 +1,60 @@
+p, h1, h2, h3, h4, h5, h6, li, tr, th, td {font-family: 'Lato', sans-serif;} 
+p { margin-bottom: 2px; }
+h1 {font-size: 20px;}
+h2 {font-size: 16px;}
+h3 {font-size: 14px; margin:0;}
+ul, li, ul li {list-style-type: none;padding: 0;}
+body {background-color: #cc80ff;}
+#dashboard h2 a {color: inherit;}
+#mainframe {margin-top: 40px;}
+#forname {margin-left: 2px;}
+#dashboard {background-color: #4D394B; color: white;}
+#dashboard h2 {opacity: 0.6; margin-top: 2px;}
+#dashboard h3 {opacity: 0.3;}
+#madefor {margin-top: 5px;}
+.madeo {
+margin-right: 3px;
+transition: 0.3s linear;
+-webkit-transition: 0.3s linear;
+-o-transition: 0.3s linear;
+-moz-transition: 0.3s linear;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+.brexit {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+#madefor ul ul {background-color: #755772; padding-left: 4px;}
+.triangle {
+width: 0;
+height: 0;
+margin: 0 auto;
+border-style: solid;
+border-width: 12px 12px 0 12px;
+border-color: #4D394B transparent transparent transparent;
+}
+.artshows a {color: inherit;}
+#viewboard {background-color: white;}
+#logo {text-align: right;}
+.artshows {display: none;}
+.pointmade {cursor: pointer;}
+.marbottom {margin-bottom: 10px;}
+.martop {margin-top: 10px;}
+
+/*The Function*/
+#pass h2 { cursor: pointer; margin-right: 5px;color: white; display: inline-block; background-color: #80dfff; border-radius: 15px; padding:5px; }
+.selled {background-color: #00bfff !important;}
+#passclicker, #genclicker {
+	-webkit-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	transition: 0.3s ease;
+	}
+#newpass {background-color: #f2f2f2; border-radius: 15px; margin-top: 10px; padding: 5px; border: 1px solid black; display: none;}
